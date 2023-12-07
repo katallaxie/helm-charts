@@ -1,23 +1,23 @@
 apiVersion: v2
-name: unifi-controller
+name: unifi-network-application
 description: A Helm Chart for deploying a UniFi controller to Kubernetes
 type: application
-version: 2.5.0
+version: 1.0.0
 keywords:
   - unifi
   - controller
   - ubiquiti
 home: https://github.com/katallaxie/helm-charts/tree/main/charts/unifi-controller
-appVersion: "8.0.7"
+appVersion: "8.0.7-ls18"
 maintainers:
   - name: Sebastian Doell
     email: sebastian@katallaxie.dev
 annotations:
   artifacthub.io/changes: |
-    - Upgrade UniFi Controller to v8.0.7
+    - UniFi Controller to v8.0.7-ls18
   artifacthub.io/images: |
     - name: unifi-controller
-      image: linuxserver/unifi-controller:8.0.7
+      image: linuxserver/docker-unifi-network-application:8.0.7-ls18
       platforms:
         - linux/amd64
         - linux/arm64

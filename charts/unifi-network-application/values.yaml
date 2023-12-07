@@ -1,5 +1,5 @@
 image:
-  repository: linuxserver/unifi-controller
+  repository: linuxserver/docker-unifi-network-application
   pullPolicy: IfNotPresent
   tag:
 
